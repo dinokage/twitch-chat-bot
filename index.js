@@ -1,6 +1,6 @@
 const tmi = require('tmi.js')
 
-const {username, password, channel} = require('dotenv').config();
+const {username, password, channel} = require('./settings.json');
 
 const sauce = [388021, 386058, 121261, 87390, 337813, 290822]
 
@@ -10,7 +10,7 @@ const options = {
     identity: {
         username, password
     },
-    channels:['dinokageplays']
+    channels:[channel]
 
 };
 
