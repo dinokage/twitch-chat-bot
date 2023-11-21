@@ -1,6 +1,6 @@
 const tmi = require('tmi.js')
 
-const {username, password, channel} = require('./settings.json');
+const {username, password, channel} = require('dotenv').config();
 
 const sauce = [388021, 386058, 121261, 87390, 337813, 290822]
 
