@@ -10,7 +10,7 @@ const options = {
     identity: {
         username, password
     },
-    channels:[channel]
+    channels:['dinokageplays']
 
 };
 
